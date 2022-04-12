@@ -34,6 +34,7 @@ There looks to be a interesting folder '/mercuryfacts/'
 Mercury facts page seems to be retrieving the data from a SQL database.
 
 Using sqlmap to get the users table.
+
 `sqlmap http://192.168.9.21:8080/mercuryfacts/1 --dump`
 ![](../images/vulnhub-mercury-sqlmap-db-dump.png)
 ## SSH login
