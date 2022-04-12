@@ -12,7 +12,7 @@ Mercury is a boot2root machine that is about enumerating the web system  to find
 netdiscover -i eth1 -r 192.168.9.0/24
 ```
 
-![[vulnhub-mercury-netdiscover.png]]
+![[images/vulnhub-mercury-netdiscover.png]]
 The ip address for the box is 192.168.9.21
 ### Port scanning
 
