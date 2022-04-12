@@ -3,8 +3,6 @@ layout: post
 title: Vulnhub - Mercury writeup
 ---
 
-# Vulnhub - Mercury
-
 Mercury is a boot2root machine that is about enumerating the web system  to find the SQL vulnerability and exploiting it to get credentials for SSH login. After that exploiting a known vulnerability to privilege escalation.
 
 ---
