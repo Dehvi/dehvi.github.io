@@ -8,17 +8,13 @@ Mercury is a boot2root machine that is about enumerating the web system  to find
 ---
 
 ## Finding the ip address and enumeration
-```sh
-netdiscover -i eth1 -r 192.168.9.0/24
-```
+`netdiscover -i eth1 -r 192.168.9.0/24`
 
 ![](../images/vulnhub-mercury-netdiscover.png)
 The ip address for the box is 192.168.9.21
 ### Port scanning
 
-```sh
-nmap -sC -sV -oA nmap/mercury 192.168.9.21
-```
+`nmap -sC -sV -oA nmap/mercury 192.168.9.21`
 ![](../vulnhub-mercury-nmap.png)
 
 The website on port 8080 is under development, so there isn't much to see on homepage.
@@ -38,9 +34,7 @@ There looks to be a interesting folder '/mercuryfacts/'
 Mercury facts page seems to be retrieving the data from a SQL database.
 
 Using sqlmap to get the users table.
-```sh
-sqlmap http://192.168.9.21:8080/mercuryfacts/1 --dump
-```
+`sqlmap http://192.168.9.21:8080/mercuryfacts/1 --dump`
 ![](../images/vulnhub-mercury-sqlmap-db-dump.png)
 ## SSH login
 Now using the credentials to login with SSH.
