@@ -4,6 +4,7 @@ title: Scrapy tutorial #1 - Basics of using Scrapy framework to scrape data from
 ---
 
 Scrapy is a web scraping framework with a lot of functionality. In this tutorial I will look into the basics of how to download and use scrapy to scrape data from a website.
+
 ---
 # Installing scrapy and basics
 
