@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scrapy tutorial #2 Pagination - Getting the web spider to crawl different pages.
+title: Scrapy tutorial 2 Pagination - Getting the web spider to crawl different pages.
 ---
 
 Continuing from previous tutorial I will add pagination into the scrapy spider to get the books data from different page and follow next page links to get all the books on webpage.
