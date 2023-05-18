@@ -3,6 +3,10 @@ layout: post
 title: Scrapy tutorial 3 Item-Pipeline - Using the pipelines to clean, validate and store the data.
 ---
 
+Using Item-Pipeline to process the scraped data by cleaning, validating and storing. Showing how to download images while scraping the data using the media pipeline.
+
+---
+
 # Introduction
 In this tutorial I will show how to use the Scrapy item pipeline to parse, clean, validate, checking for duplicates and storing in a database and downloading images from the webpage.
 Scrapy documentation about [item pipeline](https://docs.scrapy.org/en/latest/topics/item-pipeline.html).
