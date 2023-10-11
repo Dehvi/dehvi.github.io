@@ -1,5 +1,14 @@
-Here is my writeup of Lucas0001's Lizz by Lucas0001  
-https://crackmes.one/crackme/64a06bac33c5d460c17f1f59
+---
+layout: post
+title: Writeup - Crackme by Lucas0001's Lizz
+---
+
+This is a writeup detailing how I solved the crackme and what my opinion was of this.
+
+---
+
+Here is my writeup of [Lucas0001's Lizz by Lucas0001](https://crackmes.one/crackme/64a06bac33c5d460c17f1f59)
+
 
 # Description
 Here is the description of the crackme. Looks to be pretty straight forward.
