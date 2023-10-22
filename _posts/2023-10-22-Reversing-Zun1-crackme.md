@@ -15,7 +15,8 @@ The description is short and simple.
 > patching is easy, write a keygen
 
 # Running the program
-Running the program opens a CLI program that asks for password.
+Running the program opens a CLI program that asks for password.  
+
 ![](../images/zun1-crackme-input.png)
 
 ## Wrong password message
