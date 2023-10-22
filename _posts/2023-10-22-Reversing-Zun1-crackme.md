@@ -48,7 +48,7 @@ Back to FUN_004010f8 the password is compared with the new string created from u
 The program exits right away after taking the password value, so I am using a debugger to break the program after printing the message.
 
 # Keygen
-Creating a keygen is simple. Take the username, loop the username characters and add 1 to the each character.
+Creating a keygen is simple. Take the username, loop the characters in username and add 1 to the each character.
 
 ```python
 def main():
